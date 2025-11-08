@@ -5,3 +5,7 @@ function showPage(pageID) {
     page.classList.remove('hidden');
     window.scrollTo({ top: 0, behavior: "auto" });
 }
+
+function calendar(){
+    
+}

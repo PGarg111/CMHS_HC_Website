@@ -15,26 +15,64 @@
         <button onclick="showPage('about')">About</button>
         <button onclick="showPage('projects')">Projects</button>
         <button onclick="showPage('home')">Home</button>
-        <button onclick="showPage('events')">Events</button>
-        <button onclick="showPage('join')">Join</button>
+        <button onclick="showPage('events')">Calendar</button>
+        <button onclick="showPage('join')">Hackathons</button>
     </nav>
 
     <section id="home" class="page">
         <h1>Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
         <p>This is the official website for the Hack Club at CMHS High Voltage Chargers. Stay tuned for updates, events,
-        and projects!</p>
+            and projects!</p>
     </section>
 
     <section id="about" class="page hidden">
-        <h1>Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
-        <p>learn more about us</p>
+        <h1>Meet our Leader and Co-leaders!</h1>
+        <img src="image.jpg" alt="Priyanshi_picture">
+        <p>Hi! My name is Priyanshi Garg, and I am a sophomore at CMHS. I have been with Hack Club for a few months
+            (started in August) and have been a part of the Daydream Charlotte, Daydream Global, and Parthenon (Athena
+            Award) hackathons. I was actually the winner of Daydream Charlotte (along with Prisha and Shreyasi over
+            here) and we placed in the top 25% in Daydream Global. I have experience with Python, HTML, CSS, some
+            Javascript, and am currently learning APIs. I can't wait to meet everyone!</p>
+        <p><b>priyanshigarg111@icloud.com</b></p>
     </section>
 
     <section id="projects" class="page hidden">
-        <h1>Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
-        <p>projects</p>
+        <h1>Below are our workshops/hackathons that we conducted!</h1>
+        <h3>Boba Drops Workshop</h3>
+        <h2>11/07/2025</h2>
+        <p>Today we conducted the Boba Drops Workshop and this was also our first meeting. The members learned basic
+            HTML and CSS for their submission. We plan on going more in depth in these two languages in the next meeting
+            on the 21st. </p>
+        <a style="padding-left: 180px;" href="https://hackclub.space/s/demo_bobadrops" target="_blank">Project made by
+            Priyanshi (Leader) for Boba Drops as an example</a>
     </section>
-    
+
+    <section id="events" class="page hidden">
+        <h1>We'll have any upcoming events and meetings on this calendar!</h1>
+        <p>Calendar</p>
+        <div class="calendar-grid">
+            <div class="header">
+                <button id="prev">&#8592;</button>
+                <h2 id="month-year"></h2>
+                <button id="next">&#8594;</button>
+            </div>
+            <div class="days">
+                <div>Monday</div>
+                <div>Tuesday</div>
+                <div>Wednesday</div>
+                <div>Thursday</div>
+                <div>Friday</div>
+                <div>Saturday</div>
+                <div>Sunday</div>
+            </div>
+            <div class="dates" id="dates"></div>
+        </div>
+    </section>
+
+    <section id="join" class="page hidden">
+        <h1>Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
+        <p>Any future hackathons that we will host will be listed here with more information. </p>
+    </section>
 
 
 </body>

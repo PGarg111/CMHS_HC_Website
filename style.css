@@ -103,11 +103,7 @@ button:hover{
     border-radius: 5px;
 }
 
-
-
-
-
-img {
+.logo {
     padding-left: 180px;
     width: 10%;
     height: 10%;
@@ -115,3 +111,21 @@ img {
     align-items: left;
 }
 
+.profile{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    padding-left: 180px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.profile p {
+    margin: 5px 10px;
+    padding-left: 0px;
+}

@@ -6,6 +6,7 @@ function showPage(pageID) {
     window.scrollTo({ top: 0, behavior: "auto" });
 }
 
-function calendar(){
-    
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
 }

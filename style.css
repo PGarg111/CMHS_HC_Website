@@ -9,12 +9,30 @@
     font-style: normal;
 }
 
-h1, p, h2, h3 {
+body.dark-mode {
+    --bg: #111111;
+    --fg: #e6e6e6;
+    --muted: #555;
+    --bg2: #1f3540;
+}
+
+body {
+    font-family: Courier, monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+
+h1, p, h2, h3, h4 {
     padding-left: 180px;
+    color: var(--fg);
 }
 
 a {
-    padding: 10px 10px; 
+    padding: 10px; 
     background-color: #007bff; 
     color: white; 
     text-decoration: none; 
@@ -22,7 +40,12 @@ a {
     cursor: pointer; 
     font-size: 16px; 
     text-align: center; 
-    line-height: 1;
+    display: block;
+    margin: 10px;
+}
+
+.project-links{
+    background-color: rgb(145, 22, 202);
 }
 
 .navbar {
@@ -80,29 +103,15 @@ button:hover{
     border-radius: 5px;
 }
 
-.calendar-grid{
-    display: flex;
-    padding-left: 200px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 300px;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-}
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.day{
-    border: 1px solid #6125c7;
-    padding: 10px;
-    text-align: center;
-}
+
 
 img {
     padding-left: 180px;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: left;
 }
+

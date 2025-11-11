@@ -27,7 +27,6 @@ body {
 
 
 h1, p, h2, h3, h4, ul{
-    padding-left: 180px;
     color: var(--fg);
 }
 
@@ -49,20 +48,16 @@ a {
 }
 
 .navbar {
+    position: fixed;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 100%;
     background-color: #10b6ed;
-    flex-direction: column;
     display: flex;
     justify-content: center;
     z-index: 1000;
     align-items: center;
-    position: fixed;
-    height: 100vh;
     transition: transform .15s ease, box-shadow .15s ease;
-    gap: 50px;
-    
 }
 
 .navbar a {
@@ -75,12 +70,14 @@ a {
 .navbar a:hover {
     background-color: #80649a;
     border-radius: 5px;
-
 }
+
+
 
 .hidden {
     display: none;
 }
+
 
 button {
     background-color: #10b6ed;
@@ -89,7 +86,6 @@ button {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -104,7 +100,6 @@ button:hover{
 }
 
 .logo {
-    padding-left: 180px;
     width: 10%;
     height: 10%;
     display: flex;
@@ -118,7 +113,6 @@ button:hover{
 }
 
 .profile img {
-    padding-left: 180px;
     width: 150px;
     height: 150px;
     border-radius: 8px;

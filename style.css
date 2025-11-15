@@ -7,6 +7,7 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    --hg: rgb(46, 183, 183);
 }
 
 body.dark-mode {
@@ -14,6 +15,8 @@ body.dark-mode {
     --fg: #e6e6e6;
     --muted: #555;
     --bg2: #1f3540;
+    --hg: #80649a;
+    
 }
 
 body {
@@ -23,6 +26,10 @@ body {
     font-style: normal;
     background: var(--bg);
     color: var(--fg);
+    background-image: url(Cox-Mill-Exterior--1024x684.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
@@ -48,13 +55,13 @@ a {
 }
 
 .navbar {
+    background-color: var(--bg);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #10b6ed;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     z-index: 1000;
     align-items: center;
     transition: transform .15s ease, box-shadow .15s ease;
@@ -68,7 +75,6 @@ a {
 }
 
 .navbar a:hover {
-    background-color: #80649a;
     border-radius: 5px;
 }
 
@@ -80,8 +86,8 @@ a {
 
 
 button {
-    background-color: #10b6ed;
-    color: white;
+    background-color: transparent;
+    color: var(--fg);
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -89,14 +95,12 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 12px;
     font-family: Courier, monospace;
     gap: 50px;
 }
 
 button:hover{
-    background-color: #80649a;
-    border-radius: 5px;
+    background-color: var(--hg);
 }
 
 .logo {
@@ -122,4 +126,27 @@ button:hover{
 .profile p {
     margin: 5px 10px;
     padding-left: 0px;
+}
+
+
+#home{
+    padding-top: 25px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no repeat;
+    -webkit-background-clip: text;
+    background-position: -10px 0;
+    animation: backcolor 5s linear infinite;
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
 }

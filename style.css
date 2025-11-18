@@ -54,6 +54,9 @@ a {
 }
 
 .project-links{
+    display: flex;
+    justify-content: center;
+    width: 40%;
     background-color: rgb(145, 22, 202);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.414);
 

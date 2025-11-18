@@ -141,6 +141,7 @@ button:hover{
     height: 150px;
     border-radius: 8px;
     object-fit: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.414);
 }
 
 .profile p {

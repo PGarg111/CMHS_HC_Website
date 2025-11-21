@@ -95,12 +95,6 @@ a {
 }
 
 
-
-.hidden {
-    display: none;
-}
-
-
 button {
     background-color: transparent;
     color: var(--fg);
@@ -168,5 +162,22 @@ button:hover{
     background-position: -10px 0;
     animation: backcolor 5s linear infinite;
     
+}
+
+.page {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(0);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px; /* adjust based on nav height */
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
 }
 

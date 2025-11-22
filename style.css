@@ -9,6 +9,7 @@
     font-style: normal;
     --hg: rgb(46, 183, 183);
     --bg3: linear-gradient(to bottom, #82c9d0a9, #b092cf8f);
+    
 }
 
 body.dark-mode {
@@ -38,6 +39,8 @@ body {
 h1, p, h2, h3, h4, ul{
     color: var(--fg);
     padding-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 a {
@@ -51,6 +54,8 @@ a {
     text-align: center; 
     display: block;
     margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .project-links{
@@ -59,6 +64,8 @@ a {
     width: 40%;
     background-color: rgb(145, 22, 202);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.414);
+    margin-left: 40px;
+    margin-right: 40px;
 
     transition: 
         transform 0.3s cubic-bezier(.25, .46, .45, .94),
@@ -139,11 +146,13 @@ button:hover{
     border-radius: 8px;
     object-fit: cover;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.414);
+    margin-left: 40px;
 }
 
 .profile p {
     margin: 5px 10px;
     padding-left: 0px;
+    margin-left: 40px;
 }
 
 

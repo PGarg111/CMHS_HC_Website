@@ -44,7 +44,7 @@ h1, p, h2, h3, h4, ul{
 }
 
 a {
-    padding: 10px; 
+    padding: 15px; 
     background-color: #007bff; 
     color: white; 
     text-decoration: none; 
@@ -62,10 +62,11 @@ a {
     display: flex;
     justify-content: center;
     width: 40%;
-    background-color: rgb(145, 22, 202);
+    background-color: rgba(145, 22, 202, 0.774);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.414);
     margin-left: 40px;
     margin-right: 40px;
+    
 
     transition: 
         transform 0.3s cubic-bezier(.25, .46, .45, .94),

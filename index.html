@@ -17,17 +17,17 @@
         <div style="margin-right: auto; margin-left:5px;">
             <button onclick="toggleTheme()">🌓</button>
         </div>
+        <button onclick="showPage('home')">Home</button>
         <button onclick="showPage('about')">About</button>
         <button onclick="showPage('projects')">Projects</button>
-        <button onclick="showPage('home')">Home</button>
         <button onclick="showPage('events')">Calendar</button>
         <button onclick="showPage('join')">Join Us</button>
+        <button onclick="showPage('hackathon')">Hackathons</button>
     </nav>
 
 
 
     <section id="home" class="page">
-        <img class="hero-logo" src="image__1_-removebg-preview.png">
         <div class="hero">
             <h1 class="hero-title">Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
             <!-- <p>This is the official website for the Hack Club at CMHS High Voltage Chargers. Stay tuned for updates,
@@ -200,7 +200,12 @@
                 by Shreyasi</a>
             <a class="project-links" href="https://genevieve-p.github.io/my_tumblr_webpage_real/"
                 target="_blank">Project
-                made by Genevieve</a>
+                made by Genevieve</a> 
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+            <a class="project-links" href="https://hackclub.space/s/my_bobadrop"
+                target="_blank">Project
+                made by Melynda</a>
         </div>
         <h3>11/14/2025</h3>
         <p>Today we continued with Boba Drops Workshop and passed out stickers. Members learned how to submit using Github. </p>
@@ -208,7 +213,7 @@
     </section>
 
     <section id="events" class="page hidden">
-        <h1>We'll have all upcoming events and meetings on this calendar!</h1>
+        <h1>All meeting dates & timings here ↓</h1>
         <div style="margin-left: 40px; margin-right: 40px;">
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=NTRhYTViMjY5ODM0OGY2NjAwZmZhNzVhYzI0MmY2NjgxNzQwNzM4ZjRjMTc5M2VkODIwNWEwNzk3NWFiMjYzMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23ec3750&color=%230b8043"
@@ -221,7 +226,13 @@
         <h1>Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
         <h2>Do you attend Cox Mill High School?</h2>
         <p>If so, you can join our club!!!</p>
-        <p>How to join:</p>
+
+        <h2>Don't attend Cox Mill High School?</h2>
+        <div class="join-button">
+            <a href="#create">click me</a>
+        </div>
+
+        <p>How to join (if you attend CMHS):</p>
         <ol>
             <li>Fill out the form below</li>
             <li>Check the Google Calendar on this website for our next meeting date</li>
@@ -237,10 +248,21 @@
         </iframe>
         <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
         <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-253255609914159']", "https://form.jotform.com/")</script>
+        
+        <div style="margin-top: 800px; margin-bottom: 100px;" id="create">
+            <p>Start a Hack Club at your school!!! → <a class="start-link" href="https://hackclub.com/clubs/" target="_blank">https://hackclub.com/clubs/</a></p>
+        </div>
 
-        <h2>Any future hackathons that we will host will be listed here with more information. </h2>
     </section>
 
+
+    <section id="hackathon" class="page hidden">
+        <div>
+            <h2>Hackathons</h2>
+            <p>Information for any hackthons hosted by our club will be posted here.</p>
+        </div>
+
+    </section>
 
 
 

@@ -17,8 +17,18 @@
         <div style="margin-right: auto; margin-left:5px;">
             <button onclick="toggleTheme()">🌓</button>
         </div>
+        
         <button onclick="showPage('home')">Home</button>
-        <button onclick="showPage('about')">About</button>
+
+        <div class="dropdown">
+            <button class="dropbtn">About ▼</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showPage('founder')" class="dropdown-item">Founder/Co-Founders</a>
+                <a href="#" onclick="showPage('school')" class="dropdown-item">School</a>
+                <a href="#" onclick="showPage('hackclub')" class="dropdown-item">Hack Club</a>
+            </div>
+        </div> 
+
         <button onclick="showPage('projects')">Projects</button>
         <button onclick="showPage('events')">Calendar</button>
         <button onclick="showPage('join')">Join Us</button>
@@ -29,6 +39,9 @@
 
     <section id="home" class="page">
         <div class="hero">
+            <a href="https://hackclub.com/"><img
+                    style="position: absolute; top: 0; left: 0px; border: 0; width: 256px; z-index: 999;"
+                    src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Hack Club" /></a>
             <h1 class="hero-title">Welcome to the CMHS High Voltage Chargers Hack Club!</h1>
             <!-- <p>This is the official website for the Hack Club at CMHS High Voltage Chargers. Stay tuned for updates,
                 events,
@@ -37,7 +50,7 @@
 
     </section>
 
-    <section id="about" class="page hidden">
+    <section id="founder" class="page hidden">
         <h1>Meet our Founders and Co-founders!</h1>
         <h2>Founder</h2>
 
@@ -49,9 +62,9 @@
                     <p>
                         Hi! My name is Priyanshi Garg, and I am a sophomore at CMHS. I have been with Hack Club for a
                         few
-                        months (started in August) and have been a part of the Daydream Charlotte, Daydream Global, and
-                        Parthenon (Athena Award) hackathons. I was actually the winner of Daydream Charlotte (along with
-                        Prisha and Shreyasi over here) and we placed in the top 25% in Daydream Global. I am currently
+                        months (started in August) and attended Daydream Charlotte, Daydream Global, and
+                        Parthenon (Athena Initiative) Hackathons. We (Prisha + Shreyasi + Me) were actually the winner
+                        of Daydream Charlotte and we placed in the top 25% in Daydream Global. I am currently
                         working towards Midnight (in Vienna, Austria) and Aces (in Washington, D.C). I have experience
                         with
                         Python, HTML, CSS, some Javascript, and am currently learning APIs. I can't wait to meet
@@ -104,8 +117,9 @@
             </div>
         </div>
 
+    </section>
 
-
+    <section id="school" class="page hidden">
         <!--Cox Mill High School Information-->
         <div>
             <h1 style="padding-top: 50px;">Cox Mill High School</h1>
@@ -162,8 +176,10 @@
             <p><b>Office Hours: </b>7:00 AM - 3:00 PM</p>
 
         </div>
+    </section>
 
-
+    <section id="hackclub" class="page hidden">
+        <h1>Hack Club</h1>
     </section>
 
     <section id="projects" class="page hidden">
@@ -200,15 +216,15 @@
                 by Shreyasi</a>
             <a class="project-links" href="https://genevieve-p.github.io/my_tumblr_webpage_real/"
                 target="_blank">Project
-                made by Genevieve</a> 
+                made by Genevieve</a>
         </div>
         <div style="display: flex; justify-content: center; margin-top: 10px;">
-            <a class="project-links" href="https://hackclub.space/s/my_bobadrop"
-                target="_blank">Project
+            <a class="project-links" href="https://hackclub.space/s/my_bobadrop" target="_blank">Project
                 made by Melynda</a>
         </div>
         <h3>11/14/2025</h3>
-        <p>Today we continued with Boba Drops Workshop and passed out stickers. Members learned how to submit using Github. </p>
+        <p>Today we continued with Boba Drops Workshop and passed out stickers. Members learned how to submit using
+            Github. </p>
 
     </section>
 
@@ -248,9 +264,10 @@
         </iframe>
         <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
         <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-253255609914159']", "https://form.jotform.com/")</script>
-        
+
         <div style="margin-top: 800px; margin-bottom: 100px;" id="create">
-            <p>Start a Hack Club at your school!!! → <a class="start-link" href="https://hackclub.com/clubs/" target="_blank">https://hackclub.com/clubs/</a></p>
+            <p>Start a Hack Club at your school!!! → <a class="start-link" href="https://hackclub.com/clubs/"
+                    target="_blank">https://hackclub.com/clubs/</a></p>
         </div>
 
     </section>

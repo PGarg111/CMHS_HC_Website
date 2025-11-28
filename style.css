@@ -91,7 +91,6 @@ a {
 }
 
 .navbar a {
-    color: white;
     text-decoration: none;
     padding: 14px 20px;
     font-size: 14px;
@@ -180,7 +179,7 @@ button:hover{
     position: absolute;
     width: 100%;
     left: 0;
-    top: 80px; /* adjust based on nav height */
+    top: 80px; 
     transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
@@ -259,4 +258,65 @@ button:hover{
     transform: scale(1.05); 
 }
 
+.dropdown {
+    background: none;
+    position: relative;
+}
+
+.dropbtn {
+    background: none;
+    color: var(--fg);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Courier, monospace;
+
+    transition: 
+        transform 0.3s cubic-bezier(.25, .46, .45, .94),
+        box-shadow 0.3s cubic-bezier(.25, .46, .45, .94);
+}
+
+.dropbtn:hover {
+    background-color: var(--hg);
+    transform: scale(1.07);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.414);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 5px 0;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    z-index: 10000;
+    min-width: 170px;
+}
+
+.dropdown-item {
+    width: 50%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--fg);
+    padding: 0px;
+    cursor: pointer;
+    font-family: Courier, monospace;
+
+    transition: 
+        transform 0.3s cubic-bezier(.25, .46, .45, .94),
+        box-shadow 0.3s cubic-bezier(.25, .46, .45, .94);
+}
+
+.dropdown-item:hover {
+    background: var(--hg);
+    transform: scale(1.03);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 

@@ -320,3 +320,8 @@ button:hover{
     display: block;
 }
 
+hr{
+    margin: 15px;
+    margin-top: 40px;
+    border: 1px solid #8492a6;
+}

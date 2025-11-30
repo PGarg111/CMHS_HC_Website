@@ -30,7 +30,14 @@
                 </div>
             </div>
 
-            <button onclick="showPage('projects')">Projects</button>
+            <div class="dropdown">
+                <button class="dropbtn">Meetings ▼</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="showPage('projects')" class="dropdown-item">Projects</a>
+                    <a href="#" onclick="showPage('meetings')" class="dropdown-item">Meetings</a>
+                </div>
+            </div>
+
             <button onclick="showPage('events')">Calendar</button>
             <button onclick="showPage('join')">Join Us</button>
             <button onclick="showPage('hackathon')">Hackathons</button>
@@ -330,8 +337,8 @@
             </section>
 
             <section id="projects" class="page hidden">
-                <h1>Projects made by members and meeting summaries</h1>
-                <h3>Projects made by members and leads</h3>
+                <h1>Projects made by members</h1>
+                <h3>Projects made by leads</h3>
                 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
                     <a class="project-links2" href="https://pgarg111.github.io/project-2/" target="_blank">Local Guide
                         to
@@ -339,10 +346,7 @@
                     <a class="project-links2" href="https://pgarg111.github.io/project-3/" target="_blank">Story Haven
                         by
                         Priyanshi G (for Parthenon)</a>
-                    <a class="project-links2" href="https://pgarg111.itch.io/three-knives-deep" target="_blank">Three
-                        Knives
-                        Deep
-                        by Priyanshi, Prisha, Shreyasi (for Daydream Charlotte and Daydream Global)</a>
+                    
                     <a class="project-links2" href="https://creativebooks.github.io/project-3/" target="_blank">Travel
                         to
                         Asia by
@@ -355,16 +359,15 @@
                     <a class="project-links2" href="https://reyxoxo.github.io/LADS-Fanpage/" target="_blank">Hole in
                         Deepspace:
                         Welcome to Linkon City by Shreyasi</a>
+                    <a class="project-links2" href="https://pgarg111.itch.io/three-knives-deep" target="_blank">Three
+                        Knives
+                        Deep
+                        by Priyanshi, Prisha, Shreyasi (for Daydream Charlotte and Daydream Global)
+                    </a>
                 </div>
 
-                <h3>Below are our workshops that we conducted during our meetings and meeting summaries!</h3>
-                <h4>Boba Drops Workshop</h4>
-                <h3>11/07/2025</h3>
-                <p>Today we conducted the Boba Drops Workshop and this was also our first meeting. The members learned
-                    basic
-                    HTML and CSS for their submission. We plan on going more in depth in these two languages in the next
-                    meeting
-                    on the 21st. </p>
+                <h3>Boba Drops Workshop Projects</h3>
+                
                 <div class="carousel">
                     <div class="carousel-track">
                         <a class="project-links" href="https://pgarg111.github.io/boba_demo/" target="_blank">Project by
@@ -385,11 +388,22 @@
                             Anonymous</a>
                     </div>
                 </div>
-                <h3>11/14/2025</h3>
-                <p>Today we continued with Boba Drops Workshop and passed out stickers. Members learned how to submit
-                    using
-                    Github. </p>
+                
 
+            </section>
+
+            <section id="meetings" class="page hidden">
+                <h3 style="margin-top: 50px;">11/07/2025</h3>
+                <p>Today was our first meetings and we conducted the Boba Drops Workshop. The members learned
+                    basic
+                    HTML and CSS for their submission. I recorded the meeting for members to look back at when in doubt. 
+                </p>
+
+                <h3>11/14/2025</h3>
+                <p>Today we continued with Boba Drops Workshop and passed out stickers. We let members continue working on their website submissions and walked around helping those who need it. Members also learned how to submit
+                    using
+                    Github and deploy Github pages. 
+                </p>
             </section>
 
             <section id="events" class="page hidden">
@@ -454,7 +468,7 @@
             <a href="https://github.com/PGarg111" target="_blank">Github</a>
             <a href="https://hackclub.com/" target="_blank">Hack Club</a>
             <a href="https://hackclub.com/slack" target="_blank">Slack</a>
-            <a href="mailto:priyanshigarg111@icloud.com" target="_blank">Email Me</a>
+            <a href="mailto:priyanshigarg111@icloud.com">Email Me</a>
         </p>
         <p style="display: flex; gap: 4px;justify-content: center; font-size: 14px;">built by Priyanshi G</p>
         <div class="footer-bottom">

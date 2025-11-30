@@ -17,7 +17,7 @@ function showPage(pageId) {
         }
     });
 
-    // Smooth scroll to top AFTER transition starts
+    
     setTimeout(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, 150);

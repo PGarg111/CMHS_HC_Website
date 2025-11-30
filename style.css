@@ -163,26 +163,23 @@ button:hover {
     margin-left: 40px;
 }
 
-
 #home {
-    padding-bottom: 100px;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
     -webkit-text-stroke: 1px #fff;
-    color: transparent;
     background-image: linear-gradient(#fff, #fff);
     background-repeat: no repeat;
     -webkit-background-clip: text;
-    background-position: -10px 0;
     animation: backcolor 5s linear infinite;
 
 }
 
 .page {
     opacity: 1;
+      visibility: visible;
+
     transition: opacity 0.5s ease, transform 0.5s ease;
     transform: translateY(0);
     position: absolute;
@@ -195,6 +192,7 @@ button:hover {
 
 .hidden {
     opacity: 0;
+    display: none;
     pointer-events: none;
     transform: translateY(20px);
 }
@@ -291,10 +289,9 @@ button:hover {
 .banner {
     animation: wave 2.5s ease-in-out infinite;
     transform-origin: left center;
-    /* looks like it’s attached on the left */
+    
 }
 
-/* waving motion */
 @keyframes wave {
     0% {
         transform: rotate(0deg) translateY(0);

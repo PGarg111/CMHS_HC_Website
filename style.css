@@ -178,8 +178,6 @@ button:hover {
 
 .page {
     opacity: 1;
-      visibility: visible;
-
     transition: opacity 0.5s ease, transform 0.5s ease;
     transform: translateY(0);
     position: absolute;
@@ -191,8 +189,8 @@ button:hover {
 }
 
 .hidden {
-    opacity: 0;
     display: none;
+    opacity: 0;
     pointer-events: none;
     transform: translateY(20px);
 }

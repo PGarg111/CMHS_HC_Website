@@ -190,9 +190,9 @@ button:hover {
 
 .hidden {
     display: none;
-    opacity: 0;
+    /*opacity: 0;
     pointer-events: none;
-    transform: translateY(20px);
+    transform: translateY(20px);*/
 }
 
 .hero {

@@ -95,13 +95,20 @@ a {
     width: 100%;
     max-width: 95%;
     overflow: hidden;
-    margin: 20px 40px;
+    margin: 20px auto;
 }
 
 .carousel-track {
     display: flex;
     gap: 20px;
-    animation: slide 12s infinite linear;
+    white-space: nowrap;
+    animation: scroll 12s linear infinite;
+}
+
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
 }
 
 .project-links {

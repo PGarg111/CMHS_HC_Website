@@ -29,5 +29,8 @@ function toggleTheme() {
 }
 
 const track = document.querySelector('.carousel-track');
+
+track.innerHTML += track.innerHTML;
+
 track.addEventListener('mouseenter', () => track.style.animationPlayState = 'paused');
 track.addEventListener('mouseleave', () => track.style.animationPlayState = 'running');

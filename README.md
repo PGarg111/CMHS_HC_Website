@@ -3,6 +3,7 @@
 I created a website for the Hack Club that I started at my school. The website features information on the club founders and co-founders, the school we are affiliated with, a calendar with club meeting dates, projects made by members, meeting summaries, and a tab that will features any Hackathons that we hosted (for the future). This website was made using HTML, CSS and JavaScript. 
 
 The user can navigate through the buttons in the topbar. The website also features a button to the very left in the topbar to switch between light and dark mode.
+There are drop downs for the about section and meetings for the different sections. 
 There is a carousel which goes through all the projects submitted by members for YSWS. So far there is only a carousel for Boba Drops since that is the only YSWS we have done so far. 
 There are also example projects from leads. When hovering over these it will flip displaying the time it took to create the project and when you click on it, the project pulls up in a new tab. 
 These cards have a blur background for a more visually appealing look. 

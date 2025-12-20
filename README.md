@@ -8,7 +8,7 @@ There is a carousel which goes through all the projects submitted by members for
 There are also example projects from leads. When hovering over these it will flip displaying the time it took to create the project and when you click on it, the project pulls up in a new tab. 
 These cards have a blur background for a more visually appealing look. 
 
-People who attend the school we are affiliated with can submit a form that they are interested in joining (the form was created using JotForm). 
+People who attend the school we are affiliated with can submit a form that they are interested in joining (the form was created using Fillout). 
 
 I made my website for others to learn about the club and get more people interested in Hack Club. 
 

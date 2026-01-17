@@ -1,5 +1,7 @@
 # CMHS_HC_Website
 
+[https://hackatime-badge.hackclub.com/U099LHP1QKF/CMHS_HC_Website]
+
 I created a website for the Hack Club that I started at my school. The website features information on the club founders and co-founders, the school we are affiliated with, a calendar with club meeting dates, projects made by members, meeting summaries, and a tab that will features any Hackathons that we hosted (for the future). This website was made using HTML, CSS and JavaScript. 
 
 The user can navigate through the buttons in the topbar. The website also features a button to the very left in the topbar to switch between light and dark mode.
